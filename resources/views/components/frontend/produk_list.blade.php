@@ -8,6 +8,19 @@
 </div>
 <!-- ***** Preloader End ***** -->
 
+<style>
+    .img-box{
+        width: 176px;
+        height: 170px;
+        /* border: solid red; */
+    }
+
+    .modified-img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+</style>
 
 <!-- ***** Our Team Area Starts ***** -->
 <section class="our-team">
@@ -27,7 +40,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <img src="{{ url_images('gambar', $r->gambar) }}" class="img-fluid w-100 h-100" style="width:80px;">
+                                <div class="img-box">
+                                    <img class="modified-img" src="{{ url_images('gambar', $r->gambar) }}"></div>
+                                
                             </div>
                             <div class="down-content">
                                 <!-- <h6>Rp{{number_format($r->harga_jual)}},- </h6> -->

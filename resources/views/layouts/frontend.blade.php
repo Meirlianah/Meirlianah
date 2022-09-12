@@ -88,36 +88,39 @@
     </div>
     <!-- end main -->
     <!-- footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8">
-                    <h4>Butuh Bantuan</h4>
-                    <p class="pt-2">08:00 - 17:00 WIB / (Senin - Jumat)</p>
-                    <i class="fas fa-envelope-square me-2"></i> {{ $profil->email }}
-                    <br>
-                    <i class="fas fa-map-marker-alt me-2"></i> {{ $profil->address }}
-                    <br><br>
-                </div>
-                <div class="col-sm-4">
-                    <h4>Tetap Terhubung Dengan Kami</h4>
-                    <a href="#" class="text-terhubung"><i class="fab fa-facebook"></i></a>
-                    <a href="#" class="text-terhubung"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="text-terhubung"><i class="fab fa-news"></i></a>
-                    <a href="#" class="text-terhubung"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="text-terhubung"><i class="fab fa-youtube"></i></a>
-                    <a href="#" class="text-terhubung"><i class="fab fa-linkedin"></i></a>
+<!-- footer -->
+<div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h4>Kontak Kami</h4>
+                        <!-- <p class="pt-2">08:00 - 17:00 WIB / (Senin - Jumat)</p> -->
+                        <i class="fas fa-envelope-square me-2"></i> diskominfosan@banglikab.go.id
+                        <br>
+                        <i class="fas fa-phone-square me-2"></i> (0366) 93804
+                        <br>
+                        <i class="fas fa-map-marker-alt me-2"></i> Jalan Brigjen Ngurah Rai No. 30
+                        <br><br>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>Tetap Terhubung Dengan Kami</h4>
+                        <a href="#" class="text-terhubung"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-terhubung"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-terhubung"><i class="fab fa-news"></i></a>
+                        <a href="#" class="text-terhubung"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-terhubung"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-terhubung"><i class="fab fa-linkedin"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="copyright">
-        <div class="container text-center">
-            Copyright &copy; <?= date('Y'); ?> {{ config('app.name') }} All Reserved
-            <br>
-            Bangli's Food
+        <div class="copyright">
+            <div class="container text-center">
+                Copyright &copy; <?= date('Y');?> {{ config('app.name') }} All Reserved
+                <br>
+                Bangli's Food
+            </div>
         </div>
-    </div>
     <!-- end footer -->
     <!-- modal cari -->
     <div class="modal fade" id="ModalSearch" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdrop" aria-hidden="true">
